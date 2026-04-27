@@ -22,7 +22,7 @@ Tema yang dipilih: **B**
 - @react-navigation/native-stack
 
 ## Cara Install & Run
-- git clone https://github.com/DianUtami3/uts-mobile-lanjut-2410501001-DianUtami.git
+- Git clone https://github.com/DianUtami3/uts-mobile-lanjut-2410501001-DianUtami.git
 - Masuk ke folder project: cd moviedex
 - Install dependencies: npm install
 - Jalankan aplikasi: npx expo start
