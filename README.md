@@ -6,7 +6,6 @@
 ## Tema Project
 Tema yang dipilih: **B**
 
-
 ## Tech Stack
 - React Native
 - Expo
@@ -22,15 +21,16 @@ Tema yang dipilih: **B**
 - @react-navigation/bottom-tabs
 - @react-navigation/native-stack
 
-
 ## Cara Install & Run
+- git clone https://github.com/DianUtami3/uts-mobile-lanjut-2410501001-DianUtami.git
+- Masuk ke folder project: cd bookshelf-chalieta
+- Install dependencies: npm install
+- Jalankan aplikasi: npx expo start
+- Scan QR dengan Expo Go (Android/iOS)
 
-git clone https://github.com/DianUtami3/uts-mobile-lanjut-2410501001-DianUtami.git
-cd uts-mobile-lanjut-NIM-NAMA
-npm install
-npx expo start
-
-## Link Demo YouTube
+## Link Demo YouTube & Gdrive
+YouTube: https://youtu.be/j09YAw9ib-Q?si=shWbWqm5Koqj5quI 
+Gdrive: https://drive.google.com/file/d/1ytKxsNoAtAJaOAAvNJQHxN4LOsNJy7uw/view?usp=drivesdk 
 
 ## Penjelasan State Management
 Alasan:
@@ -40,7 +40,6 @@ Alasan:
 - Mudah digunakan untuk fitur favorit
 
 Implementasi:
-
 - FavoriteContext.js
 - Menyimpan list show favorit
 - Memiliki fungsi:
