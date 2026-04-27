@@ -47,7 +47,14 @@ Implementasi:
 1. addFavorite
 2. removeFavorite
 3. isFavorite
-
+   
+## Screenshot
+- ![Home](screenshots/home.png)
+- ![Detail](screenshots/detailscreen.png)
+- ![Favorite](screenshots/favorite.png)
+- ![Search](screenshots/search.png)
+- ![About](screenshots/about.png)
+- 
 ## Daftar Referensi 
 1. React Navigation Documentation  
    https://reactnavigation.org/docs/getting-started
