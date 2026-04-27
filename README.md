@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+## MovieDex - Aplikasi Katalog Film & Series
+- Nama: Dian Utami
+- NIM: 2410501001
+- Kelas: B
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Tema Project
+Tema yang dipilih: **B**
 
-## Get started
 
-1. Install dependencies
+## Tech Stack
+- React Native
+- Expo
+- React Navigation
+- Fetch API
+- Context API (useReducer)
 
-   ```bash
-   npm install
-   ```
+### Versi (diambil dari package.json)
+- expo: ^50.x.x
+- react: ^18.x.x
+- react-native: ^0.73.x
+- @react-navigation/native
+- @react-navigation/bottom-tabs
+- @react-navigation/native-stack
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## ⚙️ Cara Install & Run
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/USERNAME/uts-mobile-lanjut-NIM-NAMA.git
+cd uts-mobile-lanjut-NIM-NAMA
+npm install
+npx expo start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Link Demo YouTube
 
-## Learn more
+## Penjelasan State Management
+Alasan:
+- Lebih sederhana dibanding Redux
+- Cocok untuk aplikasi skala kecil-menengah
+- Tidak perlu install library tambahan
+- Mudah digunakan untuk fitur favorit
 
-To learn more about developing your project with Expo, look at the following resources:
+Implementasi:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- FavoriteContext.js
+- Menyimpan list show favorit
+- Memiliki fungsi:
+1. addFavorite
+2. removeFavorite
+3. isFavorite
 
-## Join the community
+## Daftar Referensi 
+https://reactnavigation.org/
+https://docs.expo.dev/
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+https://www.tvmaze.com/api
+https://stackoverflow.com/
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Refleksi
+Selama pengerjaan aplikasi ini, Saya mengalami beberapa kesulitan. Salah satunya selalu error dibagian Navigation, karena ketika terjadi konflik antar Expo Router dan React Navigation dapat menyebabkan aplikasi tidak berjalan. Dari proses pengerjaan ini, saya belajar bagaimana mengelola state menggunakan Context API, memahami struktur project React Native, serta debugging error yang muncul di console. Saya juga memahami pentingnya struktur folder yang rapi dan penulisan path yang benar. Selain itu, saya juga belajar bagaimana mengintegrasikan API eksternal dan menampilkan data secara dinamis dalam aplikasi mobile.
