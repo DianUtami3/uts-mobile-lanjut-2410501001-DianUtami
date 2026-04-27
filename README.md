@@ -49,11 +49,25 @@ Implementasi:
 3. isFavorite
 
 ## Daftar Referensi 
-https://reactnavigation.org/
-https://docs.expo.dev/
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-https://www.tvmaze.com/api
-https://stackoverflow.com/
+1. React Navigation Documentation  
+   https://reactnavigation.org/docs/getting-started
+2. Expo Documentation  
+   https://docs.expo.dev/
+3. React Native Official Documentation   
+   https://reactnative.dev/docs/getting-started
+4. Fetch API (MDN Web Docs)   
+   https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+5. TVMaze API Documentation   
+   https://www.tvmaze.com/api
+6. React Context API & useReducer  
+   https://react.dev/reference/react/useContext  
+   https://react.dev/reference/react/useReducer
+7. FlatList React Native  
+   https://reactnative.dev/docs/flatlist
+8. ActivityIndicator React Native  
+   https://reactnative.dev/docs/activityindicator
+9. Stack Overflow (Debugging Reference)  
+   https://stackoverflow.com/
 
 ## Refleksi
 Selama pengerjaan aplikasi ini, Saya mengalami beberapa kesulitan. Salah satunya selalu error dibagian Navigation, karena ketika terjadi konflik antar Expo Router dan React Navigation dapat menyebabkan aplikasi tidak berjalan. Dari proses pengerjaan ini, saya belajar bagaimana mengelola state menggunakan Context API, memahami struktur project React Native, serta debugging error yang muncul di console. Saya juga memahami pentingnya struktur folder yang rapi dan penulisan path yang benar. Selain itu, saya juga belajar bagaimana mengintegrasikan API eksternal dan menampilkan data secara dinamis dalam aplikasi mobile.
