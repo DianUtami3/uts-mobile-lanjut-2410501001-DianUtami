@@ -14,7 +14,7 @@ Tema yang dipilih: **B**
 - Fetch API
 - Context API (useReducer)
 
-### Versi (diambil dari package.json)
+## Versi (diambil dari package.json)
 - expo: ^50.x.x
 - react: ^18.x.x
 - react-native: ^0.73.x
@@ -23,10 +23,9 @@ Tema yang dipilih: **B**
 - @react-navigation/native-stack
 
 
-## ⚙️ Cara Install & Run
+## Cara Install & Run
 
-```bash
-git clone https://github.com/USERNAME/uts-mobile-lanjut-NIM-NAMA.git
+git clone https://github.com/DianUtami3/uts-mobile-lanjut-2410501001-DianUtami.git
 cd uts-mobile-lanjut-NIM-NAMA
 npm install
 npx expo start
