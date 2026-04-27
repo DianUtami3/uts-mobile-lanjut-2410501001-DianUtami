@@ -23,7 +23,7 @@ Tema yang dipilih: **B**
 
 ## Cara Install & Run
 - git clone https://github.com/DianUtami3/uts-mobile-lanjut-2410501001-DianUtami.git
-- Masuk ke folder project: cd bookshelf-chalieta
+- Masuk ke folder project: cd moviedex
 - Install dependencies: npm install
 - Jalankan aplikasi: npx expo start
 - Scan QR dengan Expo Go (Android/iOS)
